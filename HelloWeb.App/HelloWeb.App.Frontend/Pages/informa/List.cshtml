@@ -3,13 +3,20 @@
 @{
 }
 
-<h1>Lista de información </h1>
+<h1>Lista de información de la pagina</h1>
 <table class="table">
-  @foreach(var Saludos  in Model.ListaSaludos)
+  @foreach(var Saludos  in Model.informa)
 {
     <tr>
-        <td>@Saludos</td>
-
+        <td>@Saludos.EnEspañol</td>
+        <td>@Saludos.EnIngles</td>
+        <td>@Saludos.EnItaliano</td>
+         <tb>
+          <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-InfoId="@Saludos.Id">
+          <i class="fas fa-info-circle"> </i>
+          Detalle Infomar
+          </a>
+         </tb>
     </tr> 
 }
 </table>

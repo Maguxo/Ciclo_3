@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "HelloWeb.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HelloWeb.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloWeb.App.Dominio.dll": {}
+        }
+      },
+      "HelloWeb.App.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HelloWeb.App.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HelloWeb.App.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloWeb.App.Persistencia.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HelloWeb.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../HelloWeb.App.Dominio/HelloWeb.App.Dominio.csproj",
+      "msbuildProject": "../HelloWeb.App.Dominio/HelloWeb.App.Dominio.csproj"
+    },
+    "HelloWeb.App.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../HelloWeb.App.Persistencia/HelloWeb.App.Persistencia.csproj",
+      "msbuildProject": "../HelloWeb.App.Persistencia/HelloWeb.App.Persistencia.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "HelloWeb.App.Dominio >= 1.0.0",
+      "HelloWeb.App.Persistencia >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ednem\\.nuget\\packages\\": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj": {
+              "projectPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj"
+            },
+            "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj": {
+              "projectPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

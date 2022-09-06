@@ -1,0 +1,15 @@
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.csproj.AssemblyReference.cache
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.AssemblyInfoInputs.cache
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.AssemblyInfo.cs
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\bin\Debug\net6.0\HelloWeb.App.Persistencia.deps.json
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\bin\Debug\net6.0\HelloWeb.App.Persistencia.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\bin\Debug\net6.0\HelloWeb.App.Persistencia.pdb
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\bin\Debug\net6.0\HelloWeb.App.Dominio.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\bin\Debug\net6.0\HelloWeb.App.Dominio.pdb
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.csproj.CopyComplete
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\refint\HelloWeb.App.Persistencia.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\HelloWeb.App.Persistencia.pdb
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Persistencia\obj\Debug\net6.0\ref\HelloWeb.App.Persistencia.dll

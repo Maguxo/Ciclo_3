@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj": {}
+  },
+  "projects": {
+    "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj",
+        "projectName": "HelloWeb.App.Dominio",
+        "projectPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ednem\\.nuget\\packages\\",
+        "outputPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ednem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj",
+        "projectName": "HelloWeb.App.Persistencia",
+        "projectPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\ednem\\.nuget\\packages\\",
+        "outputPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ednem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj": {
+                "projectPath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Dominio\\HelloWeb.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

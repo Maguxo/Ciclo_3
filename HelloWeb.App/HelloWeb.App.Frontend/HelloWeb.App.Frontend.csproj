@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWeb.App.Persistencia\HelloWeb.App.Persistencia.csproj" />
+    <ProjectReference Include="..\HelloWeb.App.Dominio\HelloWeb.App.Dominio.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>

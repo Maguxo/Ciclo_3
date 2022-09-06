@@ -1,0 +1,12 @@
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\bin\Debug\net6.0\HelloWeb.App.Dominio.deps.json
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\bin\Debug\net6.0\HelloWeb.App.Dominio.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\bin\Debug\net6.0\HelloWeb.App.Dominio.pdb
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.csproj.AssemblyReference.cache
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.AssemblyInfoInputs.cache
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.AssemblyInfo.cs
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.csproj.CoreCompileInputs.cache
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\refint\HelloWeb.App.Dominio.dll
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\HelloWeb.App.Dominio.pdb
+C:\HomePetCare\HelloWeb.App\HelloWeb.App.Dominio\obj\Debug\net6.0\ref\HelloWeb.App.Dominio.dll

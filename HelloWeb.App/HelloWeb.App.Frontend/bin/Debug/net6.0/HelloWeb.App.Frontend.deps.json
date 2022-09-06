@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "HelloWeb.App.Frontend/1.0.0": {
+        "dependencies": {
+          "HelloWeb.App.Dominio": "1.0.0",
+          "HelloWeb.App.Persistencia": "1.0.0"
+        },
         "runtime": {
           "HelloWeb.App.Frontend.dll": {}
+        }
+      },
+      "HelloWeb.App.Dominio/1.0.0": {
+        "runtime": {
+          "HelloWeb.App.Dominio.dll": {}
+        }
+      },
+      "HelloWeb.App.Persistencia/1.0.0": {
+        "dependencies": {
+          "HelloWeb.App.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "HelloWeb.App.Persistencia.dll": {}
         }
       }
     }
   },
   "libraries": {
     "HelloWeb.App.Frontend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelloWeb.App.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelloWeb.App.Persistencia/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
