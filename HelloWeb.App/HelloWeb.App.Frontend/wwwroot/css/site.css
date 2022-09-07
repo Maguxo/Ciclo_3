@@ -16,3 +16,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+body{
+  background-image: url("../ImagenP/perro1.png");
+ width: auto;
+ height: auto;
+ margin: auto;
+ display: block;
+  }
+
+  img{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+  }
