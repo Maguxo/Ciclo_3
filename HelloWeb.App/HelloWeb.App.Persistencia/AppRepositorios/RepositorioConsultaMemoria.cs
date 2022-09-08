@@ -36,7 +36,7 @@ namespace HelloWeb.App.Persistencia.AppRepositorios
             {
                 return saludos;
             }
-            return saludos;
+            return null;
 
         }
 
