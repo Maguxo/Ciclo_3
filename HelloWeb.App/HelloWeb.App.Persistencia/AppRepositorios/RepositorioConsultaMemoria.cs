@@ -62,10 +62,7 @@ namespace HelloWeb.App.Persistencia.AppRepositorios
             saludos.Add(nuevoInfo);
             return nuevoInfo;
         }
-
-
-
+    
     }
-
 
 }

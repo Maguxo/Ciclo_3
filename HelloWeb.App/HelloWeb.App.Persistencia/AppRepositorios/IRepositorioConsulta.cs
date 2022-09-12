@@ -15,6 +15,6 @@ namespace HelloWeb.App.Persistencia.AppRepositorios
         Dog Update(Dog infoActualizado);
         Dog Add(Dog nuevoInfo);
 
-        
+       
     }
 }

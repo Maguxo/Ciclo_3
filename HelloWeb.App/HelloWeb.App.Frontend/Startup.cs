@@ -28,6 +28,7 @@ namespace HelloWeb.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioConsulta,RepositorioConsultaMemoria>();
+            services.AddSingleton<IRepositorioOwner,RepositorioOwnerMemoria>();
             //services.AddTransient<IRepositorioConsulta,RepositorioConsultaMemoria>();
             //services.AddScoped<IRepositorioConsulta,RepositorioConsultaMemoria>();
         }

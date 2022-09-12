@@ -30,5 +30,7 @@ namespace HelloWeb.App.Frontend.Pages
             //ListaSaludos.AddRange(Saludos);
             informa=repositorioConsulta.GetAll();
         }
+/////////////////////////////////////////////////////////////////////////////////////////////     
+
     }
 }

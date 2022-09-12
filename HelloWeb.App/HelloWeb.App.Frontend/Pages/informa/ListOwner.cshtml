@@ -1,0 +1,37 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.ListOwnerModel
+@{
+}
+
+<h1>Lista de Información Dueños</h1>
+<form method="get">
+  <label for="consultar">Save: </label>
+  <input type="text" name="consulta" />
+  <button type="submit">presionar </button>
+</form>
+<table class="table">
+  @foreach (var Saludos in Model.informaOwner)
+  {
+
+    <tr>
+      <td>@Saludos.NameOwner</td>
+      <td>@Saludos.LastNameOwner</td>
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-infoId="@Saludos.Id">
+          <i class="fas fa-info-circle fa-lg"></i </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-infoId="@Saludos.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+        </a>
+      </td>
+
+      
+
+    </tr>
+  }
+</table>
+
+<a asp-page=".\Edit" class="btn btn-primary">Add Informacion</a>
+<a asp-page=".\Delete" class="btn btn-primary">Deleted Informacion</a>

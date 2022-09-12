@@ -59,3 +59,44 @@ body{
     border-radius: 400px;
     
   }
+
+  .redes{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 590px;
+    left: 20px ;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    
+  }
+  .redes1{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 590px;
+    right: 20px ;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    
+  }
+
+  .redes2{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    top: 590px;
+    right: 610px; 
+    display: block;
+    border-radius: 400px;
+    float: none;
+    
+  }
+  
+  
+  
+ 
+ 
