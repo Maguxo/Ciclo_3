@@ -25,10 +25,37 @@ body{
  display: block;
   }
 
-  img{
-    width: 500px;
+  .dog1{
+    width: 400px;
     height: auto;
     margin: auto;
     display: block;
     border-radius: 400px;
+    float: none;
+  }
+
+  
+  .dog2{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 150px;
+    right: 20px;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    float: right;
+  }
+
+  
+  .dog3{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 150px;
+    left: 20px ;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    
   }

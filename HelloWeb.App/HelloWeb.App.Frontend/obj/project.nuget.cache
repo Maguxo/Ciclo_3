@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6oBzkfWXQFpnuIhDemovJAsPmV0um8WyNOT7BEE+Cc6P7tgu7WLC8gViNAsgOnqna5o5uFik3wJdvarRRfORVA==",
+  "dgSpecHash": "rqyLZWKLRqQU7YYW00RGb+5pwu8gEU715OjL1x6/jU93/b0SmGJgobYML0SFAQbHlDbavxnr2EH9qRediHfZyg==",
   "success": true,
   "projectFilePath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Frontend\\HelloWeb.App.Frontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ednem\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

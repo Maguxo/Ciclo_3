@@ -2,3 +2,11 @@
 @model HelloWeb.App.Frontend.Pages.DetailsModel
 @{
 }
+<h2>  @Model.informacion.NameDog</h2>
+<div>
+     Id: @Model.informacion.Id
+</div>
+<div>
+    Breed: @Model.informacion.Breed
+</div>
+<a asp-page="./List" class="btn-default">Tirando información </a>

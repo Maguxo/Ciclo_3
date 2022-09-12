@@ -10,29 +10,29 @@ namespace HelloWeb.App.Persistencia.AppRepositorios
     public class RepositorioConsultaMemoria : IRepositorioConsulta
     {
 
-        List<Informacion> saludos;
+        List<Dog> saludos;
 
         public RepositorioConsultaMemoria()
         {
-            saludos = new List<Informacion>()
+            saludos = new List<Dog>()
             {
 
-                new Informacion{Id=1,EnEspañol="Buenos dias",EnIngles="Good Morning",EnItaliano="BuonGiorno"},
-                new Informacion{Id=2,EnEspañol="Buenos tardes",EnIngles="Good afternoon", EnItaliano="Buon pomeriggio"},
-                new Informacion{Id=3,EnEspañol="Buenos noches",EnIngles="Good evening", EnItaliano="Buons sera"}
+                new Dog{Id=1,NameDog="Tarzan",Breed="San Bernardo"},
+                new Dog{Id=2,NameDog="Rambo",Breed="Labrador"},
+                new Dog{Id=3,NameDog="Maximo decimo meridio",Breed="Bobtail"}
 
             };
         }
 
-        public IEnumerable<Informacion> GetAll()
+        public IEnumerable<Dog> GetAll()
         {
             return saludos;
         }
 
-        public IEnumerable<Informacion> GetInformaPorFiltro(string filtro)
+        public IEnumerable<Dog> GetInformaPorFiltro(string filtro)
         {
-            var saludos= GetAll();
-            if(saludos != null)
+            var saludos = GetAll();
+            if (saludos != null)
             {
                 return saludos;
             }
@@ -40,9 +40,27 @@ namespace HelloWeb.App.Persistencia.AppRepositorios
 
         }
 
-        public Informacion GetInformaPorId(int infoId)
+        public Dog GetInformaPorId(int infoId)
         {
             return saludos.SingleOrDefault(s => s.Id == infoId);
+        }
+
+        public Dog Update(Dog infoActualizado)
+        {
+            var saludo = saludos.SingleOrDefault(r => r.Id == infoActualizado.Id);
+            if (saludo != null)
+            {
+                saludo.NameDog = infoActualizado.NameDog;
+                saludo.Breed = infoActualizado.Breed;
+                
+            }
+            return saludo;
+        }
+        public Dog Add(Dog nuevoInfo)
+        {
+            nuevoInfo.Id = saludos.Max(r => r.Id) +1;
+            saludos.Add(nuevoInfo);
+            return nuevoInfo;
         }
 
 

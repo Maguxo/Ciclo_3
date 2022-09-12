@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ymJgJYbgp35p1pg77ze0Xs+vEq+mpoedDymORQw63kiePkEs2hniDMDYxaXxznmNL45ateCm5zr6s7QQbReohQ==",
+  "dgSpecHash": "ygQ3nAHQsDmdawPbsUMJCBRCXZ7KT9LJO9ojE8EmxqDjrjRnkbbcs0jnKfScSlBZbliK+pq+YpFg8oIRamLx0g==",
   "success": true,
   "projectFilePath": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Persistencia\\HelloWeb.App.Persistencia.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ednem\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

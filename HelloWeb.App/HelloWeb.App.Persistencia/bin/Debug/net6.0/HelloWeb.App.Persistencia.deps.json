@@ -14,7 +14,11 @@
           "HelloWeb.App.Persistencia.dll": {}
         }
       },
+      "System.ComponentModel.Annotations/5.0.0": {},
       "HelloWeb.App.Dominio/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "runtime": {
           "HelloWeb.App.Dominio.dll": {}
         }
@@ -26,6 +30,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
     },
     "HelloWeb.App.Dominio/1.0.0": {
       "type": "project",

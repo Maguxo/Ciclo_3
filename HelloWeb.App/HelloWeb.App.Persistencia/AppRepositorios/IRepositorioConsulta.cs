@@ -7,9 +7,14 @@ namespace HelloWeb.App.Persistencia.AppRepositorios
 
     public interface IRepositorioConsulta
     {
-        public IEnumerable<Informacion> GetAll();
-        IEnumerable<Informacion> GetInformaPorFiltro(string filtro);
+        public IEnumerable<Dog> GetAll();
+        IEnumerable<Dog> GetInformaPorFiltro(string filtro);
 
-        Informacion GetInformaPorId(int infoId);
+        Dog GetInformaPorId(int infoId);
+         
+        Dog Update(Dog infoActualizado);
+        Dog Add(Dog nuevoInfo);
+
+        
     }
 }

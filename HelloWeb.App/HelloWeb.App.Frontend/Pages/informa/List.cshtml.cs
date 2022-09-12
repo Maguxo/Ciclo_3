@@ -17,7 +17,7 @@ namespace HelloWeb.App.Frontend.Pages
         //public List<string> ListaSaludos { get; set; }
         private readonly IRepositorioConsulta repositorioConsulta;
 
-        public IEnumerable<Informacion> informa {get;set;}
+        public IEnumerable<Dog> informa {get;set;}
 
         public ListModel(IRepositorioConsulta IrepositorioConsulta)
         {

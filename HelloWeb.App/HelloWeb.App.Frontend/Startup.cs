@@ -28,8 +28,8 @@ namespace HelloWeb.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioConsulta,RepositorioConsultaMemoria>();
-            services.AddTransient<IRepositorioConsulta,RepositorioConsultaMemoria>();
-            services.AddScoped<IRepositorioConsulta,RepositorioConsultaMemoria>();
+            //services.AddTransient<IRepositorioConsulta,RepositorioConsultaMemoria>();
+            //services.AddScoped<IRepositorioConsulta,RepositorioConsultaMemoria>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
