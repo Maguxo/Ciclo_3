@@ -2,17 +2,17 @@
 @model HelloWeb.App.Frontend.Pages.EditModel
 @{
 }
-<h2>Edición de información:@Model.informacion.NameDog</h2>
+<h2>Edición de información: @Model.informacion.NameDog</h2>
 <form method="post">
     <input type="hidden" asp-for="informacion.Id" />
     <div class="from-group">
         <label asp-for="informacion.NameDog"></label>
-        <input asp-for="informacion.NameDog" class="form-control" disabled>
+        <input asp-for="informacion.NameDog" class="form-control" >
         <span class="text-danger" asp-validation-for="informacion.NameDog"></span>
     </div>
     <div class="from-group">
         <label asp-for="informacion.Breed"></label>
-        <input asp-for="informacion.Breed" class="form-control" disabled>
+        <input asp-for="informacion.Breed" class="form-control" >
         <span class="text-danger" asp-validation-for="informacion.Breed"></span>
     </div>
    

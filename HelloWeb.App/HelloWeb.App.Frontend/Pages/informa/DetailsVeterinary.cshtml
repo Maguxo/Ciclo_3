@@ -1,0 +1,18 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.DetailsVeterinaryModel
+@{
+}
+<h2>  @Model.informacion.NameVet</h2>
+<div>
+     Id: @Model.informacion.Id
+</div>
+<div>
+    Apellido: @Model.informacion.LastNameVet
+</div>
+<div>
+    telefono: @Model.informacion.PhoneVet
+</div>
+<div>
+    card: @Model.informacion.ProfCard
+</div>
+<a asp-page="./List" class="btn-default">Tirando información </a>

@@ -1,0 +1,30 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.EditVeterinaryModel
+@{
+}
+<h2>Edición de información: @Model.informacion.NameVet</h2>
+<form method="post">
+    <input type="hidden" asp-for="informacion.Id" />
+    <div class="from-group">
+        <label asp-for="informacion.NameVet"></label>
+        <input asp-for="informacion.NameVet" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.NameVet"></span>
+    </div>
+    <div class="from-group">
+        <label asp-for="informacion.LastNameVet"></label>
+        <input asp-for="informacion.LastNameVet" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.LastNameVet"></span>
+    </div>
+   <div class="from-group">
+        <label asp-for="informacion.PhoneVet"></label>
+        <input asp-for="informacion.PhoneVet" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.PhoneVet"></span>
+    </div>
+    <div class="from-group">
+        <label asp-for="informacion.ProfCard"></label>
+        <input asp-for="informacion.ProfCard" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.ProfCard"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Do it</button>
+</form>
+<a asp-page="./ListVeterinary" class="btn-default">Tirando información</a> 

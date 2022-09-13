@@ -1,0 +1,32 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.EdithOwnerModel
+@{
+}
+<h2>Edición de información:@Model.informacion.NameOwner</h2>
+<form method="post">
+    <input type="hidden" asp-for="informacion.Id" />
+    <div class="from-group">
+        <label asp-for="informacion.NameOwner"></label>
+        <input asp-for="informacion.NameOwner" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.NameOwner"></span>
+    </div>
+    <div class="from-group">
+        <label asp-for="informacion.LastNameOwner"></label>
+        <input asp-for="informacion.LastNameOwner" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.LastNameOwner"></span>
+    </div>
+   
+    <div class="from-group">
+        <label asp-for="informacion.Address"></label>
+        <input asp-for="informacion.Address" class="form-control">
+        <span class="text-danger" asp-validation-for="informacion.Address"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.PhoneOwner"></label>
+        <input asp-for="informacion.PhoneOwner" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.PhoneOwner"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Do it</button>
+</form>
+<a asp-page="./List" class="btn-default">Tirando información</a> 

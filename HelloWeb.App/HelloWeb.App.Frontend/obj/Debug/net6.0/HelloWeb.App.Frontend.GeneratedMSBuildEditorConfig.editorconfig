@@ -31,8 +31,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/DetailsOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxEZXRhaWxzT3duZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/DetailsVeterinary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxEZXRhaWxzVmV0ZXJpbmFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/EdithOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxFZGl0aE93bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/EditVeterinary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxFZGl0VmV0ZXJpbmFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/List.cshtml]
@@ -41,6 +57,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/ListOwner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxMaXN0T3duZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/informa/ListVeterinary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYVxMaXN0VmV0ZXJpbmFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/HomePetCare/HelloWeb.App/HelloWeb.App.Frontend/Pages/Privacy.cshtml]

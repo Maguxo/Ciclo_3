@@ -1,0 +1,19 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.DetailsOwnerModel
+@{
+}
+<h2>  @Model.informacion.NameOwner</h2>
+<div>
+     Id: @Model.informacion.Id
+</div>
+<div>
+    Breed: @Model.informacion.LastNameOwner
+</div>
+<div>
+    Adrees: @Model.informacion.Address
+</div>
+<div>
+    Phone: @Model.informacion.PhoneOwner
+</div>
+
+<a asp-page="./ListOwner" class="btn-default">Tirando información </a>
