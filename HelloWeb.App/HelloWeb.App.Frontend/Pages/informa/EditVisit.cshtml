@@ -1,0 +1,62 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.EditVisitModel
+@{
+}
+<h2>Edición de información: @Model.informacion.Temperature</h2>
+<form method="post">
+    <input type="hidden" asp-for="informacion.Id" />
+    <div class="from-group">
+        <label asp-for="informacion.Temperature"></label>
+        <input asp-for="informacion.Temperature" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.Temperature"></span>
+    </div>
+    <div class="from-group">
+        <label asp-for="informacion.Weight"></label>
+        <input asp-for="informacion.Weight" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.Weight"></span>
+    </div>
+   
+    <div class="from-group">
+        <label asp-for="informacion.Breath"></label>
+        <input asp-for="informacion.Breath" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.Breath"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.RPM"></label>
+        <input asp-for="informacion.RPM" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.RPM"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.Mood"></label>
+        <input asp-for="informacion.Mood" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.Mood"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.VisitDate"></label>
+        <input asp-for="informacion.VisitDate" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.VisitDate"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.IdVet"></label>
+        <input asp-for="informacion.IdVet" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.IdVet"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.IdDog"></label>
+        <input asp-for="informacion.IdDog" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.IdDog"></span>
+    </div>
+    
+    <div class="from-group">
+        <label asp-for="informacion.Commentary"></label>
+        <input asp-for="informacion.Commentary" class="form-control" >
+        <span class="text-danger" asp-validation-for="informacion.Commentary"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Do it</button>
+</form>
+<a asp-page="./List" class="btn-default">Tirando información</a> 

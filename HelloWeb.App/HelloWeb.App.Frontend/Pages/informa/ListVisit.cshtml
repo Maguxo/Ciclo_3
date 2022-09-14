@@ -1,0 +1,43 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.ListVisitModel
+@{
+}
+<h1>Lista de Información Visita</h1>
+<form method="get">
+  <label for="consultar">Save: </label>
+  <input type="text" name="consulta" />
+  <button type="submit">presionar </button>
+</form>
+<table class="table">
+  @foreach (var Saludos in Model.informa)
+  {
+
+    <tr>
+      <td>@Saludos.Temperature</td>
+      <td>@Saludos.Weight</td>
+      <td>@Saludos.Breath</td>
+      <td>@Saludos.RPM</td>
+      <td>@Saludos.Mood</td>
+      <td>@Saludos.VisitDate</td>
+      <td>@Saludos.IdVet</td>
+      <td>@Saludos.IdDog</td>
+      <td>@Saludos.Commentary</td>
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./DetailsVisit" asp-route-infoId="@Saludos.Id">
+          <i class="fas fa-info-circle fa-lg"></i </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./EditVisit" asp-route-infoId="@Saludos.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+        </a>
+      </td>
+
+      
+
+    </tr>
+  }
+</table>
+
+<a asp-page=".\EditVisit" class="btn btn-primary">Add Informacion</a>
+<a asp-page=".\Delete" class="btn btn-primary">Deleted Informacion</a>

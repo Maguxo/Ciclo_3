@@ -1,0 +1,33 @@
+﻿@page
+@model HelloWeb.App.Frontend.Pages.DetailsVisitModel
+@{
+}
+<h2>  @Model.informacion.Temperature</h2>
+<div>
+     Id: @Model.informacion.Id
+</div>
+<div>
+    weight: @Model.informacion.Weight
+</div>
+<div>
+    Breath: @Model.informacion.Breath
+</div>
+<div>
+    RPM: @Model.informacion.RPM
+</div>
+<div>
+    Mood: @Model.informacion.Mood
+</div>
+<div>
+    Visit Date: @Model.informacion.VisitDate
+</div>
+<div>
+    Id Vet: @Model.informacion.IdVet
+</div>
+<div>
+    Id Dog: @Model.informacion.IdDog
+</div>
+<div>
+    Comentary: @Model.informacion.Commentary
+</div>
+<a asp-page="./List" class="btn-default">Tirando información </a>

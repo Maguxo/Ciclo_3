@@ -30,7 +30,7 @@ namespace HelloWeb.App.Frontend
             services.AddSingleton<IRepositorioConsulta,RepositorioConsultaMemoria>();
             services.AddSingleton<IRepositorioVeterinary,RepositorioVeterinaryMemoria>();
             services.AddSingleton<IRepositorioOwner,RepositorioOwnerMemoria>();
-            
+             services.AddSingleton<IRepositorioVisit,RepositorioVisitMemoria>();
             
             //services.AddTransient<IRepositorioConsulta,RepositorioConsultaMemoria>();
             //services.AddScoped<IRepositorioConsulta,RepositorioConsultaMemoria>();
