@@ -11,7 +11,7 @@ namespace HelloWeb.App.Dominio
         [Required(ErrorMessage="Espacio vacio. rellene espacio"), StringLength(50)]
         public string Weight {get;set;}
         [Required(ErrorMessage="Espacio vacio. rellene espacio"), StringLength(50)]
-        public String  Breath{get;set;}
+        public string  Breath{get;set;}
         [Required(ErrorMessage="Espacio vacio. rellene espacio"), StringLength(50)]
         public string RPM{get;set;}
         [Required(ErrorMessage="Espacio vacio. rellene espacio"), StringLength(50)]
