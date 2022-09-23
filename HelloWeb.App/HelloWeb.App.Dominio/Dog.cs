@@ -12,6 +12,10 @@ namespace HelloWeb.App.Dominio
 
         public string Breed { get; set; }
         
+       public Veterinary Veterinary{get;set;}
+        //public TipoVital signo{get;set;}
+         public System.Collections.Generic.List<Owner> dueño{get; set;}
+       
        
         
     }

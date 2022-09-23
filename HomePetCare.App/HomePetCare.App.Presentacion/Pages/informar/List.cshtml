@@ -1,0 +1,47 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.ListModel
+@{
+}
+
+<h1>Lista de Información Caninos</h1>
+<form method="get">
+  <label for="consultar">Save: </label>
+  <input type="text" name="consulta" />
+  <button type="submit">presionar </button>
+</form>
+
+<table class="table">
+
+  @foreach (var Saludos in Model.dog)
+  {
+
+    <tr>
+
+      <td>@Saludos.NameVDog</td>
+      <td>@Saludos.Breed</td>
+      <td>@Saludos.FechaNacimiento</td>
+      <td>@Saludos.Color</td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-idDog="@Saludos.Id">
+          <i class="fas fa-info-circle fa-lg"></i>
+        </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-idDog="@Saludos.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+        </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-idDog="@Saludos.Id">
+          <i class="fas fa-trash" aria-hidden="true">Delete</i>
+        </a>
+      </td>
+
+    </tr>
+  }
+</table>
+
+<a asp-page=".\Edit" class="btn btn-primary">Add Informacion</a>

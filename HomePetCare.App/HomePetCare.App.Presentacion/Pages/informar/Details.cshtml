@@ -1,0 +1,18 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.DetailsModel
+@{
+}
+<h2>Datos detallados de Dog: @Model.dog.NameVDog</h2>
+<div>
+     Id: @Model.dog.Id
+</div>
+<div>
+    Breed: @Model.dog.Breed
+</div>
+<div>
+    Fecha de Nacimiento: @Model.dog.FechaNacimiento
+</div>
+<div>
+    Color: @Model.dog.Color
+</div>
+<a asp-page="./List" class="btn-default">Come Back</a>

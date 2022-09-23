@@ -1,0 +1,96 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body{
+  background-image: url("../ImagenP/perro1.png");
+ width: auto;
+ height: auto;
+ margin: auto;
+ display: block;
+  }
+
+  .dog1{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    float: none;
+  }
+
+  
+  .dog2{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 150px;
+    right: 20px;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    float: right;
+  }
+
+  
+  .dog3{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 150px;
+    left: 20px ;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    
+  }
+
+  .redes{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 590px;
+    left: 20px ;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    
+  }
+  .redes1{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 590px;
+    right: 20px ;
+    margin: auto;
+    display: block;
+    border-radius: 400px;
+    
+  }
+
+  .redes2{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    top: 590px;
+    right: 610px; 
+    display: block;
+    border-radius: 400px;
+    float: none;
+    
+  }

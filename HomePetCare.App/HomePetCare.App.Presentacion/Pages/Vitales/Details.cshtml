@@ -1,0 +1,18 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.DetaailsModel
+@{
+}
+<h2>Datos detallados de Estado vitales: </h2>
+<div>
+     Id: @Model.estadoV.Id
+</div>
+<div>
+    Fecha de registro: @Model.estadoV.FechaHora
+</div>
+<div>
+    Valor: @Model.estadoV.Valor
+</div>
+<div>
+    Signo: @Model.estadoV.Signo
+</div>
+<a asp-page="./List" class="btn-default">Come Back</a>

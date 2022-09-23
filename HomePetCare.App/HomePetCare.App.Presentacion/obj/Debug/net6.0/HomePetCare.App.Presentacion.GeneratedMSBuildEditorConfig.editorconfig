@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HomePetCare.App.Presentacion
+build_property.RootNamespace = HomePetCare.App.Presentacion
+build_property.ProjectDir = C:\HomePetCare\HomePetCare.App\HomePetCare.App.Presentacion\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\HomePetCare\HomePetCare.App\HomePetCare.App.Presentacion
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/informar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/informar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/informar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/informar/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5mb3JtYXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Vitales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVml0YWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Vitales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVml0YWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Vitales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVml0YWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Vitales/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVml0YWxlc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2wvw0h1eib

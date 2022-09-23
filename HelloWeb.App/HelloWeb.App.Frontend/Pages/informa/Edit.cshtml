@@ -7,15 +7,15 @@
     <input type="hidden" asp-for="informacion.Id" />
     <div class="from-group">
         <label asp-for="informacion.NameDog"></label>
-        <input asp-for="informacion.NameDog" class="form-control" >
+        <input asp-for="informacion.NameDog" class="form-control">
         <span class="text-danger" asp-validation-for="informacion.NameDog"></span>
     </div>
     <div class="from-group">
         <label asp-for="informacion.Breed"></label>
-        <input asp-for="informacion.Breed" class="form-control" >
+        <input asp-for="informacion.Breed" class="form-control">
         <span class="text-danger" asp-validation-for="informacion.Breed"></span>
     </div>
-   
+
     <button type="submit" class="btn btn-primary">Do it</button>
 </form>
-<a asp-page="./List" class="btn-default">Tirando información</a> 
+<a asp-page="./List" class="btn-default">Tirando información</a>

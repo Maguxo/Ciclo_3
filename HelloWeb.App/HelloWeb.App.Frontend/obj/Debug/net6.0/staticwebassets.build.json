@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vXmlUiPMceztLEqJw34BAcpK00QTjGv31c63JG44tcQ=",
+  "Hash": "GcXbi3Tq+7w8qVF6ildrV8leLPuiFfXFwSpMOVQ5dyU=",
   "Source": "HelloWeb.App.Frontend",
   "BasePath": "_content/HelloWeb.App.Frontend",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImagenP\\redesS.jpg"
+    },
+    {
+      "Identity": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Frontend\\wwwroot\\ImagenP\\Worksheet 3.12 Rest and its principles.docx",
+      "SourceId": "HelloWeb.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/HelloWeb.App.Frontend",
+      "RelativePath": "ImagenP/Worksheet 3.12 Rest and its principles.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenP\\Worksheet 3.12 Rest and its principles.docx"
     },
     {
       "Identity": "C:\\HomePetCare\\HelloWeb.App\\HelloWeb.App.Frontend\\wwwroot\\js\\site.js",

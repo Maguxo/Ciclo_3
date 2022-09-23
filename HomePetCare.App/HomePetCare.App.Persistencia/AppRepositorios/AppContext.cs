@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 using HomePetCare.App.Dominio;
 
@@ -7,7 +8,9 @@ namespace HomePetCare.App.Persistencia
     public class AppContext : DbContext
     {
         public DbSet<Dog> Dogs { get; set; }
+        public DbSet<EstadoVital> EstadoVitales { get; set; }
         public DbSet<Owner> Owners { get; set; }
+        public DbSet<Ser> seres { get; set; }
         public DbSet<Veterinary> Veterinarys { get; set; }
         public DbSet<Visit> Visits { get; set; }
         
@@ -16,7 +19,7 @@ namespace HomePetCare.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = HomePetCare.Data");
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HomePetCare.DataBase"); 
                               
             }
 
