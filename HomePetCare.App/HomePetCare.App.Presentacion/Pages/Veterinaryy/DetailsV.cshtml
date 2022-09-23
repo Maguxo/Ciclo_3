@@ -1,0 +1,18 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.DetailsVModel
+@{
+}
+<h2>Datos detallados de veterinario: @Model.veter.NameVet</h2>
+<div>
+     Id: @Model.veter.Id
+</div>
+<div>
+    LastName: @Model.veter.LastNameVet
+</div>
+<div>
+    Phone: @Model.veter.PhoneVet
+</div>
+<div>
+    profCard: @Model.veter.ProfCard
+</div>
+<a asp-page="./ListV" class="btn-default">Come Back</a>

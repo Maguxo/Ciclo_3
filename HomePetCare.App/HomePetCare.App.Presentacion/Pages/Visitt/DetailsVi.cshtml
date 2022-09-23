@@ -1,0 +1,26 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.DetailsViModel
+@{
+}
+<h2>Datos detallados de Visita: @Model.visit.Temperature</h2>
+<div>
+     Id: @Model.visit.Id
+</div>
+<div>
+    Weight: @Model.visit.Weight
+</div>
+<div>
+    Breath: @Model.visit.Breath
+</div>
+<div>
+    RPM: @Model.visit.RPM
+</div>
+
+<div>
+    Mood: @Model.visit.Mood
+</div>
+
+<div>
+    RPM: @Model.visit.Commentary
+</div>
+<a asp-page="./ListVi" class="btn-default">Come Back</a>

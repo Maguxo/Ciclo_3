@@ -1,0 +1,47 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.ListVModel
+@{
+}
+
+<h1>Lista de Información Veterinarios</h1>
+<form method="get">
+  <label for="consultar">Save: </label>
+  <input type="text" name="consulta" />
+  <button type="submit">presionar </button>
+</form>
+
+<table class="table">
+
+  @foreach (var Saludos in Model.veter)
+  {
+
+    <tr>
+
+      <td>@Saludos.NameVet</td>
+      <td>@Saludos.LastNameVet</td>
+      <td>@Saludos.PhoneVet</td>
+      <td>@Saludos.ProfCard</td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./DetailsV" asp-route-idVeterinary="@Saludos.Id">
+          <i class="fas fa-info-circle fa-lg"></i>
+        </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./EditV" asp-route-idVeterinary="@Saludos.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+        </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./DeleteV" asp-route-idVeterinary="@Saludos.Id">
+          <i class="fas fa-trash" aria-hidden="true">Delete</i>
+        </a>
+      </td>
+
+    </tr>
+  }
+</table>
+
+<a asp-page=".\EditV" class="btn btn-primary">Add Informacion</a>

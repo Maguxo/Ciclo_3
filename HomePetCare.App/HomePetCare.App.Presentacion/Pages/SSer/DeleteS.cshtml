@@ -1,0 +1,27 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.DeleteSModel
+@{
+}
+<h2>Borrar información: </h2>
+<form method="post">
+    <input type="hidden" asp-for="ser.Id" />
+    <div class="form-group">
+        <label asp-for="ser.Name"></label>
+        <input asp-for="ser.Name" class="form-control">
+        <span class="text-danger" asp-validation-for="ser.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ser.LastName"></label>
+        <input asp-for="ser.LastName" class="form-control">
+        <span class="text-danger" asp-validation-for="ser.LastName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ser.Telephone"></label>
+        <input asp-for="ser.Telephone" class="form-control">
+        <span class="text-danger" asp-validation-for="ser.Telephone"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+</form>
+<a asp-page="./ListS" class="btn-default">Tirando información</a>

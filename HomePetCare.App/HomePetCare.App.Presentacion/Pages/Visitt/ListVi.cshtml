@@ -1,0 +1,49 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.ListViModel
+@{
+}
+
+<h1>Lista de Información Visita</h1>
+<form method="get">
+  <label for="consultar">Save: </label>
+  <input type="text" name="consulta" />
+  <button type="submit">presionar </button>
+</form>
+
+<table class="table">
+
+  @foreach (var Saludos in Model.visits)
+  {
+
+    <tr>
+
+      <td>@Saludos.Temperature</td>
+      <td>@Saludos.Weight</td>
+      <td>@Saludos.Breath</td>
+      <td>@Saludos.RPM</td>
+      <td>@Saludos.Mood</td>
+     <td>@Saludos.Commentary</td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./DetailsVi" asp-route-idVisit="@Saludos.Id">
+          <i class="fas fa-info-circle fa-lg"></i>
+        </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./EditVi" asp-route-idVisit="@Saludos.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+        </a>
+      </td>
+
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./DeleteVi" asp-route-idVisit="@Saludos.Id">
+          <i class="fas fa-trash" aria-hidden="true">Delete</i>
+        </a>
+      </td>
+
+    </tr>
+  }
+</table>
+
+<a asp-page=".\EditVi" class="btn btn-primary">Add Informacion</a>

@@ -1,0 +1,18 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.DetailSModel
+@{
+}
+<h2>Datos detallados de Ser: @Model.ser.Name</h2>
+<div>
+     Id: @Model.ser.Id
+</div>
+<div>
+    name: @Model.ser.Name
+</div>
+<div>
+    LasName: @Model.ser.LastName
+</div>
+<div>
+    Telephone: @Model.ser.Telephone
+</div>
+<a asp-page="./ListS" class="btn-default">Come Back</a>

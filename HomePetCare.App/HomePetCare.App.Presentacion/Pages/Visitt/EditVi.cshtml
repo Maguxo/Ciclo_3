@@ -1,0 +1,47 @@
+﻿@page
+@model HomePetCare.App.Presentacion.Pages.EditViModel
+@{
+}
+<h2>Edición de información: @Model.visit.Temperature</h2>
+<form method="post">
+    <input type="hidden" asp-for="visit.Id" />
+
+    <div class="form-group">
+        <label asp-for="visit.Temperature"></label>
+        <input asp-for="visit.Temperature" class="form-control">
+        <span class="text-danger" asp-validation-for="visit.Temperature"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="visit.Weight"></label>
+        <input asp-for="visit.Weight" class="form-control">
+        <span class="text-danger" asp-validation-for="visit.Weight"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="visit.Breath"></label>
+        <input asp-for="visit.Breath" class="form-control">
+        <span class="text-danger" asp-validation-for="visit.Breath"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="visit.RPM"></label>
+        <input asp-for="visit.RPM" class="form-control">
+        <span class="text-danger" asp-validation-for="visit.RPM"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="visit.Mood"></label>
+        <input asp-for="visit.Mood" class="form-control">
+        <span class="text-danger" asp-validation-for="visit.Mood"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="visit.Commentary"></label>
+        <input asp-for="visit.Commentary" class="form-control">
+        <span class="text-danger" asp-validation-for="visit.Commentary"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Do it</button> 
+
+</form>
+<a asp-page="./ListVi" class="btn-default">Tirando información</a>

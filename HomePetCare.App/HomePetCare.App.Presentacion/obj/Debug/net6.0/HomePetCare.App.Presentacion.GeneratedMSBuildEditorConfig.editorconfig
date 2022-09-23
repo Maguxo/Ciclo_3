@@ -47,6 +47,54 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/SSer/DeleteS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU1NlclxEZWxldGVTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/SSer/DetailS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU1NlclxEZXRhaWxTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/SSer/EditS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU1NlclxFZGl0Uy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/SSer/ListS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU1NlclxMaXN0Uy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Veterinaryy/DeleteV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyeXlcRGVsZXRlVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Veterinaryy/DetailsV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyeXlcRGV0YWlsc1YuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Veterinaryy/EditV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyeXlcRWRpdFYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Veterinaryy/ListV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyeXlcTGlzdFYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Visitt/DeleteVi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXR0XERlbGV0ZVZpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Visitt/DetailsVi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXR0XERldGFpbHNWaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Visitt/EditVi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXR0XEVkaXRWaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Visitt/ListVi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXR0XExpc3RWaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/HomePetCare/HomePetCare.App/HomePetCare.App.Presentacion/Pages/Vitales/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVml0YWxlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
