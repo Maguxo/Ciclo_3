@@ -15,8 +15,6 @@ namespace HomePetCare.App.Dominio
         public string RPM{get;set;}
         public string Mood{get;set;}
         public DateTime VisitDate{get;set;}
-        
-       
         public string Commentary{get;set;}    
        
         
