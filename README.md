@@ -4,4 +4,4 @@
 
 ---
 # Ciclo_3
-Creación de App Luego subirla a la nube.
+Administración y control de un registro de animales con CRUD subidos a la nube, utilizanco .NET con lenguaje C#.  
